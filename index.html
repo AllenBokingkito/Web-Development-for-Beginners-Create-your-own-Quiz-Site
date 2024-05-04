@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+      <div id="question-container" class="hide">
+        <div id="question"></div>
+          <div id="answer-buttons" class="btn-grid">
+          </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+
+      <div class="score">
+        <span id="right-answers"></span>
+      </div>
+
+     
+      <div id="popup" class="popup hide">
+        <img src="jff.png" alt="Surprise Image">
+      </div>
+      <div id="wrong-popup" class="popup hide">
+        <img src="dodot.png" alt="Wrong Answer Image">
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
